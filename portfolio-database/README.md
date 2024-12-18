@@ -20,13 +20,13 @@ Database portfolio has the following tables:
 
 You can make changes to the database or do searches by committing SQL-commands.
 
-###Example 1: How to insert data:
+### Example 1: How to insert data:
 
 INSERT INTO project (name, start_date, end_date, description, link)
 VALUES
 ('Free Fall', '2023-08-22', '2025-10-01', 'Mobile Game', 'https://example.com');
 
-###Example 2: Searching projects and their technologies:
+### Example 2: Searching projects and their technologies:
 
 SELECT name, stack.technology 
 FROM project
